@@ -1,0 +1,64 @@
+.container{
+    display: flex ;
+   justify-content: space-around;
+   background-color: rgb(236, 8, 8);
+    font-weight: bold;
+   margin-top: 1px;  
+    
+}
+body{
+    background-color: darkgrey;
+    background-image: url('web-design-background.png');
+}
+.one,.two,.three{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+ .four,.five,.six,.seven{ height: 30px;
+    width: 300px;
+    display: list-item;
+    justify-content: left;
+    
+    
+     
+ }
+ .eight{
+     width: 100px;
+     height: 30px;
+     background-color: chocolate;
+     
+
+ }
+ 
+.zero{ display: flex;
+    justify-content: space-around;
+    background-color:white; 
+}
+.eleven,.twelve,.fifty{
+    width: 300px;
+     height: 30px;
+}
+
+.drum{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cup{
+    background-image: url('pexels-photo-949587.jpeg');
+}    
+    
+    
