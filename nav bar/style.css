@@ -24,6 +24,7 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px;
+   
 }
 nav ul li{
     display: inline-block;
@@ -40,5 +41,4 @@ nav ul li a {
 }
 a.active,a:hover{
     background: #1b9bff;
-    transition: 5s;
-}
+    transition: 10s;

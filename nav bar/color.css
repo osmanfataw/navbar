@@ -10,7 +10,7 @@ body{
     background-color: darkgrey;
     background-image: url('web-design-background.png');
 }
-.one,.two,.three{
+.one,.two,.three,.phone{
   width: 100px;
   height: 100px;
   position: relative;
@@ -58,7 +58,7 @@ body{
 }
 
 .cup{
-    background-image: url('pexels-photo-949587.jpeg');
+    
 }    
     
     
